@@ -90,6 +90,12 @@ Git Course
 
 	this command will delete the branch called my_new_branch
 
+`git push -u origin main`
+
+	this command will create new brach in the remote repository 
+	think about you created main branch in local repo and you want to create 
+	that branch also in remote repository
+
 `git push origin --delete branch_name(master)`
 
 	if you have 2 branch in github account main and master
