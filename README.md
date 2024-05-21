@@ -22,5 +22,8 @@ git reset .
 git commit -m "initial commit"
 	files inside stage area has been commited
 
+git commit -a -m "add and commit"
+	both add and commit the changes inside the repo
+
 git log 
 	list the information about the last commits have been made
