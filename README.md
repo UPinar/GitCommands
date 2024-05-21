@@ -145,3 +145,5 @@ Git Course
 	the commit inside the history just patching the history.
 	after the revert commit has been done, push that commit to remote 
 	repository.
+
+hello world this is sparta
