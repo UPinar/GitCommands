@@ -3,7 +3,7 @@ Git Course
 
 `git init `
 
-	to initialize git inside the folder 
+to initialize git inside the folder 
 
 `git status`
 
