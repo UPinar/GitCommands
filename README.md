@@ -27,3 +27,7 @@ git commit -a -m "add and commit"
 
 git log 
 	list the information about the last commits have been made
+
+git remote add origin https://github.com/UPinar/Git_Training.git
+	connects remote repository has been created in Github
+
