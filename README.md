@@ -185,6 +185,19 @@ Git Course
 
 	this command will clear all stash list 
 
-`git rebase`
+`git rebase master`
 
 	RUN -> git checkout -b feature 
+	add some changes to README.md file inside feature branch then commit it.
+	RUN -> git checkout main
+	add a rebase.py file RUN -> git add . RUN -> git commit -am "rebase.py added"
+	add a comment line to rebase.py commit that file also
+	now we have 2 commits in main branch and 1 commits in feature branch 
+	RUN -> git checkout feature 
+	RUN -> git rebase main
+	What happened is those 2 commits has been done in main branch is added 
+	before the last commit in feature branch.
+	Think about MainLast will be the commit that feature branch has been created
+	feature log -> ML -> F1
+	main log 	-> ML -> M1 -> M2
+	feature log after rebase -> ML -> M1 -> M2 -> F1
