@@ -111,5 +111,16 @@ Git Course
 	this command will create a branch called test2_branch in local repo
 	and checkout to test2_branch from master or main branch 
 
-Hello world this is change inside main branch.
-Lets see what will happen
+`git merge test_branch`
+`git merge --abort`
+`git commit -am "merge commit"`
+
+	think about X branch has some changes in file A and Y branch also 
+	have some changes in the same file same lines. Both changes 
+	have been commited in their branches. 
+	Now X branch wants the changes happened in Y branch so it runs
+	-git merge Y- command but merge confict happened.
+	We can abort the conflict by using -git merge --abort-
+	Accept X or Y branch changes or both. 
+	At last we need to have a merge commit.
+
