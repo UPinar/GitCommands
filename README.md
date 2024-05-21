@@ -158,3 +158,29 @@ Git Course
 	RUN git commit --amend --no-edit
 	these 2 commands will (add) unstaged.py and add the file to last commit
 	without editing the message of that commit
+
+`git stash save st_1`
+
+	if we want to remove the change but also save it for later use 
+	we can use stash command and give it a name 
+
+`git stash list`
+
+	this command will list all of the stashed changes 
+	stash@{0}: On main: st_2
+	stash@{1}: On main: st_1
+
+`git stash apply 0`
+	
+	this command will apply the first[index = 0] stash to our files
+	but this command will not remove that changes[0] from stash list 
+
+`git stash pop 0`
+`git stash pop stash@{1}`
+
+	this command will apply the changes in the stash list with its index
+	or its name and also remove that changes from stash list.
+
+`git stash clear`
+
+	this command will clear all stash list 
