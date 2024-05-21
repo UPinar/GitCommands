@@ -110,3 +110,6 @@ Git Course
 
 	this command will create a branch called test2_branch in local repo
 	and checkout to test2_branch from master or main branch 
+
+Hello world this is change inside main branch.
+Lets see what will happen
