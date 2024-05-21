@@ -134,3 +134,14 @@ Git Course
 	will reset to the commit and delete all the files has been added.
 	NEVER do a reset when the commit has been already pushed to remote
 	repository, there might be somebody using and building upon that commit.
+
+`git revert e9816e5aeb7f2c28c21c11d82feb304df57ec2d5`
+
+	when we commit and push an unwanted commit, we can create 
+	a revert commit which is using the unwanted commit hash to
+	create a commit that does not have unwanted files inside that 
+	unwanted commit, but the unwanted commit will still be inside
+	our commit history, unlike reset --hard, revert is not deleting
+	the commit inside the history just patching the history.
+	after the revert commit has been done, push that commit to remote 
+	repository.
