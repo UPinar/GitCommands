@@ -132,3 +132,5 @@ Git Course
 `git reset --hard 94847cec58a4ee4b1b3fd1b97e9ab9a55fd00cdd`
 
 	will reset to the commit and delete all the files has been added.
+	NEVER do a reset when the commit has been already pushed to remote
+	repository, there might be somebody using and building upon that commit.
