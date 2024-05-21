@@ -74,3 +74,18 @@ Git Course
 
 	cloning repository from github to a folder called Cpp_Lessons_Folder
 
+`git branch`
+
+	this command will list all branches 
+
+`git branch -M main`
+
+	this command will change master branch name to main
+
+`git branch my_new_brach`
+
+	this command will create a seperate branch from the main(master) branch 
+
+`git branch -d my_new_branch`
+
+	this command will delete the branch called my_new_branch
