@@ -101,3 +101,12 @@ Git Course
 	if you have 2 branch in github account main and master
 	and you want to delete master branch only want to have main
 	this command is pushing origin(local repo) and deleting remote repo
+
+`git checkout test_branch`
+
+	this command will checkout to test_branch from master or main branch 
+
+`git checkout -b test2_branch`
+
+	this command will create a branch called test2_branch in local repo
+	and checkout to test2_branch from master or main branch 
