@@ -124,3 +124,4 @@ Git Course
 	Accept X or Y branch changes or both. 
 	At last we need to have a merge commit.
 
+
