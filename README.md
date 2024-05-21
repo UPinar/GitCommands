@@ -201,3 +201,12 @@ Git Course
 	feature log -> ML -> F1
 	main log 	-> ML -> M1 -> M2
 	feature log after rebase -> ML -> M1 -> M2 -> F1
+
+`git rebase main --interactive`
+
+	think about adding 3 commits to the feature branch F1, F2 and F3
+	before merging those commits to the master you can make them 1 commit
+	(squash)
+	log file will appear after running that command change F2 and F3 commits
+	from pick to squash and save. 
+	You will have a commit that has whole F1, F2 and F3 in 1 commit.
