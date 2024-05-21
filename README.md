@@ -3,7 +3,7 @@ Git Course
 
 `git init `
 
-to initialize git inside the folder 
+	to initialize git inside the folder 
 
 `git status`
 
@@ -45,3 +45,15 @@ to initialize git inside the folder
 
 	pushing changes inside remote repo(origin) to the branch(master)
 	-u flag is allows git pull command without arguments
+
+`git fetch`
+
+	when changes have been made in webUI, the remote repo will become 1 commit 
+ 	ahead from local repository. fetch command is getting the last commit from 
+  	remote repository
+
+`git merge origin/master`
+
+ 	merging the remote repository commit to our local master branch 
+
+	
