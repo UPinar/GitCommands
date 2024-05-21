@@ -146,4 +146,15 @@ Git Course
 	after the revert commit has been done, push that commit to remote 
 	repository.
 
-hello world this is sparta
+`git --amend`
+
+	we have a change in a previous file(README.md) which has been in previous commits 
+	also created a new file inside directory(unstaged.py)
+	RUN git commit -am "wierd message" 
+	we can change the message of the last commit with
+	RUN git commit --amend -m "better message"
+	if we want to add unstaged.py to the last commit 
+	RUN git add .
+	RUN git commit --amend --no-edit
+	these 2 commands will (add) unstaged.py and add the file to last commit
+	without editing the message of that commit
