@@ -184,3 +184,7 @@ Git Course
 `git stash clear`
 
 	this command will clear all stash list 
+
+`git rebase`
+
+	RUN -> git checkout -b feature 
