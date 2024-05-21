@@ -124,4 +124,11 @@ Git Course
 	Accept X or Y branch changes or both. 
 	At last we need to have a merge commit.
 
+`git reset 94847cec58a4ee4b1b3fd1b97e9ab9a55fd00cdd`
+	
+	will reset to the commit hash, but not delete the files
+	that has been added in that commit
+	
+`git reset --hard 94847cec58a4ee4b1b3fd1b97e9ab9a55fd00cdd`
 
+	will reset to the commit and delete all the files has been added.
