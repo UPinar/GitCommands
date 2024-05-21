@@ -18,3 +18,9 @@ git add README.md
 
 git reset .
 	files are went back from staging are to untracked
+
+git commit -m "initial commit"
+	files inside stage area has been commited
+
+git log 
+	list the information about the last commits have been made
