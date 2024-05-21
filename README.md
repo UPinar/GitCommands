@@ -66,4 +66,11 @@ Git Course
 
  	when -u flag has not been used we will specify remote branch name.
 	
-	
+`git clone https://github.com/UPinar/CppLessons.git`
+
+	cloning repository from github to the folder that we are in.
+
+`git clone https://github.com/UPinar/CppLessons.git Cpp_Lessons_Folder`
+
+	cloning repository from github to a folder called Cpp_Lessons_Folder
+
