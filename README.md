@@ -89,3 +89,9 @@ Git Course
 `git branch -d my_new_branch`
 
 	this command will delete the branch called my_new_branch
+
+`git push origin --delete branch_name(master)`
+
+	if you have 2 branch in github account main and master
+	and you want to delete master branch only want to have main
+	this command is pushing origin(local repo) and deleting remote repo
