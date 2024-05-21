@@ -56,4 +56,14 @@ Git Course
 
  	merging the remote repository commit to our local master branch 
 
+`git pull`
+
+ 	This command is actually does git fetch + git merge commands combined job
+  	when -u flag has been used in push command we don't need to specify 
+   	remote branch name in git pull command
+
+`git pull origin/master`
+
+ 	when -u flag has not been used we will specify remote branch name.
+	
 	
