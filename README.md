@@ -41,6 +41,14 @@ Git Course
 
 	connects remote repository has been created in Github
 
+`git remote remove origin`
+
+	remove remote connection from existing Github repo
+
+`git remote -v`
+
+	displays the URLs that Git has stored
+
 `git push origin master -u`
 
 	pushing changes inside remote repo(origin) to the branch(master)
