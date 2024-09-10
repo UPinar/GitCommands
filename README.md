@@ -1,4 +1,4 @@
-Git Course
+Git Commands
 -----------
 
 `git init `
